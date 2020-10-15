@@ -6,25 +6,15 @@
     <title>Document</title>
 </head>
 <body>
-    <script>
-    var nama = "adiputra,Adiputra,Sutrisno,Wahyu,Bimo,adiputra,Castiq";
-    var polaExp = /adiputra/;
-    nama = nama.replace(polaExp,"ad1putr4");
-    alert(nama);
-
-    // language='Javascript'>
-    // function cek_valid(text){
-    //  var pola = /[^a-z\d ]/i;
-    //  return !(pola.test(text));
-    // }
-     
-    // function TombolCek(){
-    // if ( cek_valid(document.form1.txtHuruf.value) == true ) {
-    //     alert("Password sesuai dengan pola!");
-    // }else {
-    //     alert("Password gak sesuai dengan pola!");
-    // }
-    // }
-    </script>
+    <p>
+      tulis plat nomer
+        <br>
+        contoh ab 2345 jh
+      </p>
+      <form action="#">
+        <input id="plat">
+          <button onclick="platnomor(document.getElementById('plat'));">Check</button>
+      </form>
+    <script src="plt.js"></script>
 </body>
 </html>
